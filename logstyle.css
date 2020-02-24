@@ -1,0 +1,152 @@
+
+html {
+	overflow-y: scroll; 
+}
+
+body {
+  background-color: #c1bdba; 
+  font-family: 'Titillium Web', sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0px 0px 40px 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+li {
+   display: block;
+   width: 100%;
+   font-size: 20px;
+   cursor: pointer;
+   padding: 15px;
+   text-align: center;
+   background-color: rgba(160,179,176, 0.25);
+   color: #a0b3b0;
+   transition: .5s ease;
+  }
+.table:hover { 
+  background-color:#18a47e ;
+  color: #ffffff;
+}
+.active {
+      background-color: rgba(26,177,136, 1);
+      color: #ffffff;
+
+}
+
+#log {
+     max-width: 600px;
+     background: #13232f;
+     opacity: .9;
+     border-radius: 4px;
+     padding: 40px;
+     margin: 40px auto;
+     box-shadow:0 4px 10px 4px rgba(#13232f,.3);
+
+}
+#login li {
+  width: 100%;
+}
+.field input{
+ width: 100%;
+ background-color: #13232f;
+ padding: 5px 10px;
+ border: 1px solid white;
+ font-size: 22px;
+ transition:border-color 0.25s ease;
+}
+.field input:focus {
+       border-color: #1ab188; 
+}
+
+.field {
+   position: relative;
+   margin: 0px 0px 40px 0px;
+}
+label {
+    position: absolute;
+    font-size: 22px;
+    transform:translateY(-30px);
+  left:13px;
+  color:rgba(255 ,255 ,255 ,0.5);
+  transition:all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+
+}
+label.pick {
+      transform:translate(50px);
+      left: -50px;
+      font-size: 14px;
+      position: absolute;
+}
+span.sh {
+   opacity: 0;
+}
+.field .fname {
+     width: 48%;
+     float: left;
+}
+.field .sname {
+       width: 48%;
+       float: right;
+       position: relative;
+}
+.field::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+span {
+  margin: 2px;
+  color: rgba(26,177,136, 1);
+
+}
+#sub {
+  border: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+  color: white;
+  transition: all 0.5s ease;
+  background-color: rgba(26,177,136, 1);
+}
+#sub:hover, #sub:focus
+{
+background-color: #18a47e;
+}
+
+.highlight {
+      color: white;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll; 
+}
+
+body {
+  background-color: #424e58;
+  font-family: 'Titillium Web', sans-serif;
+}
+.zag {
+  width: 100%;
+  background-color:  #13232f;
+  height: 100px;
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 0px;
+  
+
+}
+
+.zag span {
+  vertical-align: middle;
+  height: 40px;
+}
